@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="huati">
+      <div class="top">
+        <div class="top-top ">
+          <div class="inner clearfix">
+            <a href="tuijian.html">话题讨论</a>
+            <a href=""></a>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="./images/huati-banner_02.png" alt="" />
+        </div>
+        <div class="top-bot">
+          <div class="inner">
+            <nav class="clearfix">
+              <a href="">全部话题<span class="active"></span></a>
+              <a href="">装修经验<span></span></a>
+              <a href="">收纳心得<span></span></a>
+              <a href="">好物测评<span></span></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div class="inner">
+          <a href="">
+            <h4>长方形客厅如何装修</h4>
+            <p>
+              在家居装修中，一屋的重中之重便是客厅的装修可以说客厅是一家最重要的地方，并且也是一家的财运聚集实地调查等价交换经典
+            </p>
+            <div class="bottom"><span>回答 98</span><span>关注 1956</span></div>
+          </a>
+          <a href="">
+            <h4>室内装修材料怎么选择</h4>
+            <p>
+              其实，所有新户主们在装修之前都是一头雾水的，根本不知道该怎么做，怎么买材料，怎么选品牌。其实材料也是根本能预算表保护局起
+            </p>
+            <div class="bottom">
+              <span>回答 668</span><span>关注 1586</span>
+            </div>
+          </a>
+          <a href="">
+            <h4>大门对着厕所怎么装修</h4>
+            <p>
+              很多人都觉得大门对着厕所不好。原因有二：一是用户体验差，开门看见卫生间，总不是什么愉快的事情去我都不会叫你回家的女孩你家呢
+            </p>
+            <div class="bottom">
+              <span>回答 113</span><span>关注 6528</span>
+            </div>
+          </a>
+          <a href="">
+            <h4>除甲醛最有效方法有哪些？</h4>
+            <p>
+              新房装修甲醛污染总是难以避免，要想快速去除甲醛异味然后入住新家，以下这些方法或许可以帮你哦。1、与古巴和技术促的也不会叫你
+            </p>
+            <div class="bottom">
+              <span>回答 236</span><span>关注 3652</span>
+            </div>
+          </a>
+          <a href="">
+            <h4>长方形客厅如何装修</h4>
+            <p>
+              在家居装修中，一屋的重中之重便是客厅的装修可以说客厅是一家最重要的地方，并且也是一家的财运聚集实地调查等价交换经典
+            </p>
+            <div class="bottom"><span>回答 98</span><span>关注 1956</span></div>
+          </a>
+        </div>
+      </main>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + "px";
+    </script>
+    <script>
+      $(".top-bot a").click(function() {
+        $(this)
+          .find("span")
+          .addClass("active");
+        $(this)
+          .siblings()
+          .find("span")
+          .removeClass("active");
+      });
+    </script>
+  </body>
+</html>
